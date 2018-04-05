@@ -1,8 +1,8 @@
 #!/b#!/bin/bach
 Mkdir $Mon projet 
 Mkdir $Mon projet/main
-Mkdir $Mon projet/LICENSE
 Mkdir $Mon projet/makefile
+Mkdir $Mon projet/LICENSE
 #include <Mon projet>
 {
     return 0;
@@ -10,13 +10,13 @@ Mkdir $Mon projet/makefile
 nclude <Mon projet>
 int Mon projet()
 {
-    printf("Expected arguments, please check the help : initdev –help!\n");
+    printf("pas d'arguments, vÃ©rifiez le help : initdev â€“help!\n");
     return 1;
 }
-$ man [-s<section>] <initdev –help>
-$ man man
+$ man [-s<section>] <initdev â€“help>
 $ man ls
-$ man -initdev –help
+$ man man
+$ man -initdev â€“help
 \Name{initdev}
 Mkdir $initdev*
 $chmod +x install.sh
